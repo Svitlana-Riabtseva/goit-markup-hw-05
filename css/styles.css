@@ -561,9 +561,9 @@ img {
 
 .form-footer {
   display: flex;
+  gap: 24px;
 }
 .footer-form-label {
-  gap: 24px;
 }
 
 .footer-button {
@@ -693,7 +693,7 @@ img {
 }
 
 .modal-form-input {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .modal-input {
@@ -827,7 +827,7 @@ img {
 
 .checkbox-span:hover > .checkbox-icon,
 .checkbox-span:focus > .checkbox-icon {
-  fill: #ffffff;
+  fill: #f4f4fd;
 }
 
 .privacy {
