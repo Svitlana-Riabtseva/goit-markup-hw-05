@@ -526,9 +526,6 @@ img {
 }
 
 .form-container {
-}
-
-.footer-form {
   margin-right: 0;
   display: flex;
   gap: 24px;
@@ -562,11 +559,17 @@ img {
   margin-bottom: 16px;
 }
 
+.form-footer {
+  display: flex;
+}
+.footer-form-label {
+  gap: 24px;
+}
+
 .footer-button {
   display: flex;
   align-items: center;
   justify-content: center;
-  align-items: center;
   font-family: "Roboto", sans-serif;
   flex-direction: row;
   gap: 16px;
@@ -622,6 +625,8 @@ img {
   min-height: 584px;
   background-color: #fcfcfc;
   border-radius: 4px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
@@ -688,7 +693,7 @@ img {
 }
 
 .modal-form-input {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-input {
@@ -777,7 +782,6 @@ img {
   outline: transparent;
   transition: border-color 300ms linear;
   resize: none;
-  padding: 12px 16px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -810,4 +814,23 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+
+.checkbox-icon {
+}
+
+.checkbox-span:hover,
+.checkbox-span:focus {
+  background-color: #404bbf;
+  border: none;
+}
+
+.checkbox-span:hover > .checkbox-icon,
+.checkbox-span:focus > .checkbox-icon {
+  fill: #ffffff;
+}
+
+.privacy {
+  color: #4d5ae5;
+  text-decoration: underline;
 }
