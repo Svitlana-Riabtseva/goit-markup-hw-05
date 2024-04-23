@@ -541,14 +541,21 @@
             ></textarea>
           </div>
           <div class="checkbox-form">
-            <label>
+            <label for="user-privacy" class="checkbox-label">
               <input
                 type="checkbox"
                 id="user-privacy"
                 name="user-privacy"
                 value="true"
+                class="visually-hidden"
                 checked
-              />I accept the terms and conditions of the Privacy Policy
+              />I accept the terms and conditions of the
+              <span class="checkbox-span"
+                >Privacy Policy
+                <svg class="" width="10" height="8">
+                  <use href=""></use>
+                </svg>
+              </span>
             </label>
           </div>
           <button type="submit" class="modal-button">Send</button>
