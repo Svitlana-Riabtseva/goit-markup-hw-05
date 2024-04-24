@@ -518,6 +518,7 @@ img {
 }
 
 .container-footer-social {
+  margin-right: 80px;
 }
 
 .container-social-footer-link {
@@ -527,23 +528,22 @@ img {
 
 .form-container {
   margin-right: 0;
-  display: flex;
   gap: 24px;
 }
 
 .form-subscribe {
-  border: 1px solid #ffffff;
-  border-radius: 4px;
   width: 264px;
   height: 40px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  font-weight: 400;
+  border: 1px solid #ffffff;
+  background-color: transparent;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  background-color: transparent;
-  color: #ffffff;
   padding-left: 16px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: 400;
 }
 
 .form-subscribe::placeholder {
@@ -557,6 +557,7 @@ img {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+  margin-left: 22px;
 }
 
 .form-footer {
@@ -663,18 +664,6 @@ img {
 .modal-close-btn:focus > .modal-close-icon {
   fill: #ffffff;
 }
-.modal-form {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 8px;
-  border-radius: 4px;
-  width: 360px;
-  font-size: 18px;
-  color: #2e2f42;
-  padding-left: 16px;
-}
 
 .modal-close-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -734,6 +723,7 @@ img {
 
 .modal-button {
   display: block;
+  margin: 0 auto;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: row;
