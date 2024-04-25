@@ -543,7 +543,6 @@ img {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
-  font-weight: 400;
 }
 
 .form-subscribe::placeholder {
@@ -557,7 +556,6 @@ img {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
-  margin-left: 22px;
 }
 
 .form-footer {
@@ -573,7 +571,6 @@ img {
   justify-content: center;
   font-family: "Roboto", sans-serif;
   flex-direction: row;
-  gap: 16px;
   border: none;
   border-radius: 4px;
   padding: 8px 24px;
@@ -682,6 +679,10 @@ img {
 }
 
 .modal-form-input {
+  margin-bottom: 8px;
+}
+
+.modal-form-textarea {
   margin-bottom: 16px;
 }
 
@@ -809,14 +810,9 @@ img {
 .checkbox-icon {
 }
 
-.checkbox-span:hover,
-.checkbox-span:focus {
+.checkbox-span:checked {
   background-color: #404bbf;
   border: none;
-}
-
-.checkbox-span:hover > .checkbox-icon,
-.checkbox-span:focus > .checkbox-icon {
   fill: #f4f4fd;
 }
 
