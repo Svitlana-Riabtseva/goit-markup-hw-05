@@ -810,7 +810,7 @@ img {
 .checkbox-icon {
 }
 
-.checkbox-span:checked {
+.visually-hidden:checked + .checkbox-label > .checkbox-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
